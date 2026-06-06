@@ -2,7 +2,7 @@
 
 MirrorX is a lightweight Android mirror app that opens directly into a full-screen front-camera preview. It has no ads, analytics, account system, internet permission, image capture, video capture, or media storage.
 
-[🌐 **Visit Website**](https://tron30.github.io/mirror) | [⬇️ **Download APK**](https://github.com/tron30/mirror/releases) | [☕ **Buy Me a Coffee**](https://www.buymeacoffee.com/tron30) | [🧡 **Patreon**](https://www.patreon.com/tron30)
+[🌐 **Visit Website**](https://tron30.github.io/mirror) | [⬇️ **Download APK**](https://github.com/tron30/mirror/releases) | [☕ **Buy Me a Coffee**](https://www.buymeacoffee.com/tron65) | [🧡 **Patreon**](https://www.patreon.com/tron30)
 
 ---
 
