@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MirrorX</string>
+    <string name="privacy_statement">MirrorX uses the front camera only for real-time display. No photos, videos, or personal data are stored or transmitted.</string>
+</resources>

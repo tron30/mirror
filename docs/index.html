@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MirrorX - The Simple Mirror App</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #FF6B6B, #C06C84);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            font-size: 1.25rem;
+            color: #a0a0a0;
+            max-width: 600px;
+            margin-bottom: 2.5rem;
+            line-height: 1.6;
+        }
+        .buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        a.button {
+            padding: 0.9rem 1.8rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            color: #fff;
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            transition: all 0.2s ease;
+        }
+        a.button:hover {
+            background-color: #2a2a2a;
+            border-color: #444;
+            transform: translateY(-2px);
+        }
+        a.button.primary {
+            background: linear-gradient(135deg, #FF6B6B, #C06C84);
+            border: none;
+        }
+        a.button.primary:hover {
+            background: linear-gradient(135deg, #f05a5a, #a85a70);
+        }
+        .support {
+            margin-top: 5rem;
+            padding-top: 2rem;
+            border-top: 1px solid #222;
+        }
+        .support p {
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .footer {
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+        .footer a {
+            color: #666;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .footer a:hover {
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>MirrorX</h1>
+    <p>A beautifully simple, privacy-first mirror app for Android. No ads, no tracking, just you. Now with half-screen mode and quick settings access.</p>
+
+    <div class="buttons">
+        <a href="https://github.com/tron30/mirror/releases" class="button primary">Download APK</a>
+        <a href="#" class="button">Get it on F-Droid</a>
+    </div>
+
+    <div class="support">
+        <p>If you love this app and want to support its development without ads:</p>
+        <div class="buttons">
+            <a href="https://www.buymeacoffee.com/tron30" class="button">☕ Buy Me a Coffee</a>
+            <a href="https://www.patreon.com/tron30" class="button">🧡 Patreon</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="https://github.com/tron30/mirror">View Source on GitHub</a>
+    </div>
+
+</body>
+</html>

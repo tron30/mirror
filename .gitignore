@@ -1,0 +1,69 @@
+# Android build artifacts
+*.apk
+*.aab
+*.aar
+*.class
+*.dex
+*.jar
+*.ap_
+/build
+/app/build
+
+# Gradle
+.gradle/
+gradle-bin/
+gradle-bin/**
+local.properties
+
+# Zip archives (JDK, Gradle bundles)
+*.zip
+
+# JDK and Android SDK embedded in project
+jdk17/
+jdk*/
+android-sdk/
+sdk/
+
+# Screenshots (not part of source code)
+Screenshot*.jpg
+Screenshot*.png
+
+# IDE files
+.idea/
+*.iml
+.DS_Store
+
+# Keys and signing
+*.keystore
+*.jks
+
+# Logs and captures
+captures/
+*.log
+
+# Navigation
+.navigation/
+
+# Gradle
+.gradle/
+local.properties
+
+# JDK embedded in project
+jdk17/
+jdk*/
+
+# IDE files
+.idea/
+*.iml
+.DS_Store
+
+# Keys and signing
+*.keystore
+*.jks
+
+# Logs and captures
+captures/
+*.log
+
+# Navigation
+.navigation/
